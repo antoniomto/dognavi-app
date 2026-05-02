@@ -7,7 +7,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-dvh grid lg:grid-cols-2">
       {/* Panel izquierdo — solo en desktop */}
-      <div className="hidden lg:flex flex-col bg-gradient-to-br from-brand-800 to-brand-600 text-white p-12">
+      <div className="hidden lg:flex flex-col bg-gradient-to-br from-brand-800 to-brand-500 text-white p-12">
         <Link href="https://dognavi.org" className="flex items-center gap-3 mb-12">
           <img src="/images/dognavi_logo.png" alt="DogNavi" className="h-10 w-auto" />
           <span className="font-heading font-bold text-2xl">DogNavi</span>
