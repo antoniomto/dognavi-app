@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import ConfigForm from '@/components/dashboard/ConfigForm'
 
+export const dynamic = 'force-dynamic'
 export const metadata = { title: 'Configuración' }
 
 export default async function ConfigPage() {

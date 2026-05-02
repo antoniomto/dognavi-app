@@ -5,6 +5,7 @@ import { ArrowLeft } from 'lucide-react'
 import PetForm from '@/components/pet/PetForm'
 import type { Pet } from '@/lib/supabase/types'
 
+export const dynamic = 'force-dynamic'
 export const metadata = { title: 'Editar mascota' }
 
 export default async function EditarMascotaPage({ params }: { params: Promise<{ id: string }> }) {

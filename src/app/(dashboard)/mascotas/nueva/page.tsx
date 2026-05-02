@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import PetForm from '@/components/pet/PetForm'
 
+export const dynamic = 'force-dynamic'
 export const metadata = { title: 'Agregar mascota' }
 
 export default async function NuevaMascotaPage() {
